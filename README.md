@@ -14,5 +14,3 @@ Here i feature 3 of my projects.
 - HTML
 - CSS
 - JavaScript
-
-Clone the repo:
