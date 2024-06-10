@@ -1,10 +1,16 @@
-const card = document.querySelectorAll(".card");
+document.addEventListener("DOMContentLoaded", () => {
+  const cards = document.querySelectorAll(".card");
 
-async function getProjects() {
-  card.forEach((card) => {
+  cards.forEach((card) => {
     card.addEventListener("click", () => {
-      window.location.href = card.getAttribute("href");
+      const href = card.getAttribute("href");
+      if (href) {
+        window.location.href = href;
+      }
     });
   });
-}
-getProjects();
+});
+
+document.getElementById("header").addEventListener("click", function () {
+  window.history.back();
+});

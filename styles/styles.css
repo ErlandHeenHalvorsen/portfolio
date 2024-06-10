@@ -55,6 +55,98 @@ main {
   transform: scale(1.05);
 }
 
+/*read more*/
+.img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.project-header img img {
+  width: 50%;
+  height: auto;
+  display: block;
+  overflow: hidden;
+}
+
+.project-header h2 {
+  font-size: 2rem;
+  margin-top: 1.5rem;
+  color: #333;
+  margin: 1rem 0;
+}
+
+.project-details h3 {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  color: #444;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.5rem;
+}
+
+.project-details p,
+.project-details ul {
+  margin: 1rem 0;
+  color: #555;
+}
+
+.project-details ul {
+  list-style: none;
+  padding: 0;
+}
+
+.project-details li {
+  background: #f4f4f4;
+  margin: 0.5rem 0;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  border-left: 4px solid #333;
+}
+
+@media (max-width: 600px) {
+  main {
+    padding: 1rem;
+  }
+
+  .project-header h2 {
+    font-size: 1.5rem;
+  }
+  .project-details h3 {
+    font-size: 1.25rem;
+  }
+
+  .project-details p,
+  .project-details ul {
+    margin: 0.5rem 0;
+  }
+
+  .project-details li {
+    padding: 0.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  main {
+    padding: 1rem;
+  }
+
+  .project-header h2 {
+    font-size: 1.5rem;
+  }
+
+  .project-details h3 {
+    font-size: 1.25rem;
+  }
+}
+#header {
+  cursor: pointer;
+}
+
 @media (max-width: 768px) {
   main {
     flex-direction: column;

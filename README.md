@@ -6,8 +6,7 @@ https://github.com/ErlandHeenHalvorsen/portfolio
 
 ## Description
 
-My simple portfolio for the last submission this school year.
-Here i feature 3 of my projects.
+Her er min portfolio der jeg viser frem 3 av prosjektene jeg har jobbet med det siste skoleåret.
 
 ## Built With
 
